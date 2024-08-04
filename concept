@@ -1,0 +1,9 @@
+the concept of stitching an image is basically finding the key point between images that match eacher other and
+ then blend them together making the image being able to stitch to each other. However, there must be key points
+ between images for stitching to be able to work.
+ the process of stitching are:
+ 1. detection of key points
+ 2.finding matched descriptor of input images
+ 3.calculating the coresponding points to each other using an algorithm called RANSAC
+ 4.the calculation will then be applied to the image in order to warp and fit those images and merge them into one
+ 
